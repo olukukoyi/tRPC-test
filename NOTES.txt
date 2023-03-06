@@ -1,0 +1,8 @@
+used create-mf-app
+cors
+zod
+server will block connections between port 3000 and port 800 due to security
+        hence why we use cors
+
+
+"main": "index.ts", in api-server/package.json allows us to turn our server into a mini library so we can connect to it on the client
